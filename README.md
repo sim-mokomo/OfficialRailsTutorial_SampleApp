@@ -12,3 +12,14 @@ modelも同様。
 
 yield、layoutを利用することで動的ページ作成を実現することができる。
 なお、 3章では値の注入としてprovideを利用した。
+
+## 自動テスト
+
+Guardと呼ばれるgemを使用すると、ファイルの変更を検知して自動でテストを行ってくれる。
+なお、設定は Guard File と呼ばれるファイルに書き込む
+
+Guard初期化
+> bundle exec guard init
+
+Guard実行
+> bundle exec guard
