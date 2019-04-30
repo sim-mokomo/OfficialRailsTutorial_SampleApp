@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$light-gray: #777;
+
 body {
   padding-top: 60px;
 }
@@ -38,7 +40,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #F7F7F7;
+  color: $gray-light;
 }
 
 p {
@@ -68,7 +70,7 @@ footer {
   margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #F7F7F7;
+  color: $gray-light;
 
   a {
     color: #555555;
