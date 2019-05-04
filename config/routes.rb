@@ -9,7 +9,7 @@ Rails.application.routes.draw do
 
   get "/login", to: "sessions#new"
   post "/login", to: "sessions#create"
-  get "/logout", to: "sessions#logout"
+  delete "/logout", to: "sessions#destroy"
 
   root "static_pages#home"
   resources :users
