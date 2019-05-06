@@ -13,6 +13,7 @@
 //= require rails-ujs
 //= require jquery
 //= require jquery-ui/widgets/datepicker
+//= require jquery.waypoints.min
 //= require bootstrap
 //= require activestorage
 //= require turbolinks
